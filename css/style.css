@@ -15,8 +15,38 @@ header {
     background-color: white;
 }
 
+.container {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons {
+    border-bottom: 2px solid gb(246, 248, 249);
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
 #title {
     display: inline-block;
     font-weight: 900;
     vertical-align: top;
+}
+
+#add-task {
+    background-color: rgb(71, 173, 241);
+    color: white;
+    border: none;
+}
+
+#add-section {
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgray;
 }
